@@ -13,7 +13,7 @@ const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNex
             <span>0 xp</span>
             <div>
                 <div style={{ width: `${percentToNextLevel}%`}} />
-                <span className={styles.currentExperience} style={{ left: `${percentToNextLevel}`}}>
+                <span className={styles.currentExperience} style={{ left: `${percentToNextLevel}%`}}>
                     {currentExperience} xp
                 </span>
             </div>
